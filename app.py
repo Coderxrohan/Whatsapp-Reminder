@@ -18,8 +18,8 @@ def calculate_time_difference(start_date):
 # Function to send a WhatsApp message using the Twilio API
 def send_whatsapp_message(message):
     # Twilio credentials
-    account_sid = 'AC2327c9e2a39f41afe36a7da3b7f9625e'  # Your Twilio Account SID
-    auth_token = 'c40ee58f0022c31c89397323b0a953f0'  # Your Twilio Auth Token
+    account_sid = 'SID'  # Your Twilio Account SID
+    auth_token = 'Token ID'  # Your Twilio Auth Token
     client = Client(account_sid, auth_token)
 
     # WhatsApp numbers
